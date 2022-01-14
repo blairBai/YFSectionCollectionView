@@ -9,6 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![image](https://github.com/blairBai/YFSectionCollectionView/blob/master/demo_01.gif)
+
 ## Requirements
 
 ## Installation
