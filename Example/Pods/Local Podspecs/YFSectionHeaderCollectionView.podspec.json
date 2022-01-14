@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of YFSectionHeaderCollectionView.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/blairBai/YFSectionHeaderCollectionView",
+  "homepage": "https://github.com/blairBai/YFSectionCollectionView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "baiyunfei": "513737874@qq.com"
   },
   "source": {
-    "git": "git@github.com:blairBai/YFSectionHeaderCollectionView.git",
+    "git": "git@github.com:blairBai/YFSectionCollectionView.git",
     "tag": "0.1.0"
   },
   "platforms": {

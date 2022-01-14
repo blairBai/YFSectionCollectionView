@@ -181,7 +181,18 @@
             NSInteger section = indexPath.section;
             YFSectionModel *model = [weakSelf.data objectAtIndex:section];
             model.isExpand = !model.isExpand;
-            [weakSelf.cvMain reloadData];
+            
+            // 动画导致刷新之后 sectionHeader 位置布局错误
+            [UIView animateWithDuration:0 animations:^{
+                [CATransaction setDisableActions:YES];
+                [weakSelf.cvMain reloadData];
+                [CATransaction commit];
+            }];
+            
+//            [weakSelf.cvMain performBatchUpdates:nil completion:^(BOOL finished) {
+//                [weakSelf.cvMain setNeedsLayout];
+//                [weakSelf.cvMain layoutIfNeeded];
+//            }];
         };
         
         header.backgroundColor = [UIColor grayColor];
