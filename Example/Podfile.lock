@@ -1,0 +1,35 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LookinServer (1.0.0)
+  - Masonry (1.1.0)
+  - YFSectionHeaderCollectionView (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LookinServer (= 1.0.0)
+  - YFSectionHeaderCollectionView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - LookinServer
+    - Masonry
+
+EXTERNAL SOURCES:
+  YFSectionHeaderCollectionView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YFSectionHeaderCollectionView: a0dd2b21b9b2a45050b672a2d074dec09f236ccb
+
+PODFILE CHECKSUM: 8d1327cac7f2b869eceec5f8bec931f71dec93af
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module YFSectionHeaderCollectionView {
+  umbrella header "YFSectionHeaderCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}
